@@ -1,146 +1,143 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<resources
-  xmlns:tools="http://schemas.android.com/tools"
-  tools:ignore="MissingTranslation" >
-  
-    <string name="app_name">ControlMe</string>
-    
-    <!-- Misc constants -->
-	    <string name="ok">OK</string>
-	    <string name="cancel">Annuleren</string>
-	    <string name="yes">Ja</string>
-	    <string name="no">Nee</string>
-	    <string name="crash_toast_text">Crash rapport verstuurd.</string>
-    <!-- /Misc constants -->
-    
-    <!-- Page Titles -->
-		<string name="page_title_chat">Chat</string>
-		<string name="page_title_players">Spelers</string>
-	<!-- /Page Titles -->
-	
-	<!-- Menu constants -->
-		<string name="menu_close_tab">Sluit Tab</string>
-		<string name="menu_clear">Legen</string>
-		<string name="menu_reload">Herladen</string>
-		<string name="menu_enter_token">Voer token in</string>
-		<string name="menu_check_for_update">Controleer op updates</string>
-		<string name="menu_settings">Instellingen</string>
-		<string name="menu_exit">Sluiten</string>
-	<!-- /Menu constants -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
-	<!-- Chat Window -->
-		<!-- View constants -->
-			    <string name="enter_text_here">Voer hier text in</string>
-				<string name="send">Versturen</string>
-		<!-- /View constants -->
-		
-		<string name="chat_you_must_be_auth_before_speak">&amp;cU moet bevoegd zijn voordat u kunt praten!</string>
-	<!-- /Chat Window -->
-	
-	<!-- Player Listing Window -->
-		<!-- View constants -->
-		
-		<!-- /View constants -->
-		
-		<!-- Data Manager constants -->
-			<string name="player_left_the_game">%s left the game.</string>
-			<string name="icon_for_player_redownlaoded">Icon for %s redownlaoded.</string>
-			<string name="player_joined_the_game">%s joined the game.</string>
-		<!-- /Data Manager constants -->
-		
-		<string name="boot_success_message" formatted="false">%s was successfully %s from the server</string>
-		<string name="banned">verbannen</string>
-		<string name="kicked">afschoppen</string>
-		<string name="boot_player_title">Trap een speler weg.</string>
-		<string name="boot_player_ban_warning">Deze optie zal een speler permanent verbannen!</string>
-		<string name="are_you_sure">Weet u het zeker?</string>
-		<string name="players_online">Spelers Online: %d</string>
-	<!-- /Player Listing Window -->
-	
-	<!-- Player Window -->
-		<string name="boot">Trap</string>
-		<string name="pm">PM</string>
-	<!-- /Player Window -->
-	
-	<!-- Name Change Window -->
-		<string name="enter_display_name">Enter in display name</string>
-	<!-- /Name Change Window -->
-	
-	<!-- Boot Window -->
-		<string name="kick">Afschoppen</string>
-		<string name="ban">Verbannen</string>
-		<string name="boot_mode">Trap modus</string>
-    	<string name="boot_message">Voer trap bericht in</string>
-	<!-- /Boot Window -->
-	
-	<!-- Update Checker -->
-		<string name="update_external_storage_error">Er is een update beschikbaar maar er is geen extern data apparaat dat ik kan gebruiken om te updaten!</string>
-		<string name="update_external_storage_error_title">Fout!</string>
-		<string name="update_already_up_to_date">U heeft de nieuwste versie al!</string>
-		<string name="update_already_up_to_date_title">Geen update!</string>
-		<string name="update_could_not_connect_to_the_update_site">&amp;cKon niet verbinden met de update site</string>
-		
-		<!-- Update dialog -->
-			<string name="update_update_available">Er is een update beschikbaar!</string>
-			<string name="update_would_you_like_to_update">Wilt u updaten?\n</string>
-			<string name="update_version">Versie: %.3f\n</string>
-			<string name="update_changelog">Nieuwe functies:\n</string>
-			<string name="update_downloading">Downloaden&#8230;</string>
-		<!-- /Update dialog -->
-		
-	<!-- /Update Checker -->
-    
+    <string name="app_name">ControlMe</string>
+
+    <!-- Misc constants -->
+        <string name="ok">OK</string>
+        <string name="cancel">Annuleren</string>
+        <string name="yes">Ja</string>
+        <string name="no">Nee</string>
+        <string name="crash_toast_text">Crash rapport verstuurd.</string>
+    <!-- /Misc constants -->
+
+    <!-- Page Titles -->
+        <string name="page_title_chat">Chat</string>
+        <string name="page_title_players">Spelers</string>
+    <!-- /Page Titles -->
+
+    <!-- Menu constants -->
+        <string name="menu_close_tab">Sluit Tab</string>
+        <string name="menu_clear">Legen</string>
+        <string name="menu_reload">Herladen</string>
+        <string name="menu_enter_token">Voer token in</string>
+        <string name="menu_check_for_update">Controleer op updates</string>
+        <string name="menu_settings">Instellingen</string>
+        <string name="menu_exit">Sluiten</string>
+    <!-- /Menu constants -->
+
+    <!-- Chat Window -->
+        <!-- View constants -->
+            <string name="enter_text_here">Voer hier text in</string>
+            <string name="send">Versturen</string>
+        <!-- /View constants -->
+        
+        <string name="chat_you_must_be_auth_before_speak">&amp;cU moet bevoegd zijn voordat u kunt praten!</string>
+    <!-- /Chat Window -->
+
+    <!-- Player Listing Window -->
+        <!-- View constants -->
+        
+        <!-- /View constants -->
+        
+        <!-- Data Manager constants -->
+            <string name="player_left_the_game">%s left the game.</string>
+            <string name="icon_for_player_redownlaoded">Icon for %s redownlaoded.</string>
+            <string name="player_joined_the_game">%s joined the game.</string>
+        <!-- /Data Manager constants -->
+        
+        <string name="boot_success_message" formatted="false">%s was successfully %s from the server</string>
+        <string name="banned">verbannen</string>
+        <string name="kicked">afschoppen</string>
+        <string name="boot_player_title">Trap een speler weg.</string>
+        <string name="boot_player_ban_warning">Deze optie zal een speler permanent verbannen!</string>
+        <string name="are_you_sure">Weet u het zeker?</string>
+        <string name="players_online">Spelers Online: %d</string>
+    <!-- /Player Listing Window -->
+
+    <!-- Player Window -->
+        <string name="boot">Trap</string>
+        <string name="pm">PM</string>
+    <!-- /Player Window -->
+
+    <!-- Name Change Window -->
+        <string name="enter_display_name">Enter in display name</string>
+    <!-- /Name Change Window -->
+
+    <!-- Boot Window -->
+        <string name="kick">Afschoppen</string>
+        <string name="ban">Verbannen</string>
+        <string name="boot_mode">Trap modus</string>
+        <string name="boot_message">Voer trap bericht in</string>
+    <!-- /Boot Window -->
+
+    <!-- Update Checker -->
+        <string name="update_external_storage_error">Er is een update beschikbaar maar er is geen extern data apparaat dat ik kan gebruiken om te updaten!</string>
+        <string name="update_external_storage_error_title">Fout!</string>
+        <string name="update_already_up_to_date">U heeft de nieuwste versie al!</string>
+        <string name="update_already_up_to_date_title">Geen update!</string>
+        <string name="update_could_not_connect_to_the_update_site">&amp;cKon niet verbinden met de update site</string>
+        
+        <!-- Update dialog -->
+            <string name="update_update_available">Er is een update beschikbaar!</string>
+            <string name="update_would_you_like_to_update">Wilt u updaten?\n</string>
+            <string name="update_version">Versie: %.3f\n</string>
+            <string name="update_changelog">Nieuwe functies:\n</string>
+            <string name="update_downloading">Downloaden&#8230;</string>
+        <!-- /Update dialog -->
+    <!-- /Update Checker -->
+
     <!-- Prefrence constants -->
-	    <!-- Key constants -->
-		    <string name="pref_key_vibrate_on_PM">pref_key_vibrate_on_PM</string>
-		    <string name="pref_key_chat_window_line_limit">pref_key_chat_window_line_limit</string>
-		    <string name="pref_key_hide">pref_key_hide</string>
-	    <!-- /Key constants -->
-	    
-	    <!-- Title constants -->
-		    <string name="pref_vibrate_on_PM_title">Trillen wanneer u een PM ontvangt</string>
-		    <string name="pref_chat_window_title">Chat scherm textregels limiet</string>
-		    <string name="pref_hide_title">Verborgen modus</string>
-	    <!-- /Title constants -->
-	    
-	    <!-- Summary constants -->
-		    <string name="pref_vibrate_on_PM_summary">Laat de telefoon trillen wanneer u een nieuwe PM of ping bericht ontvangt</string>
-		    <string name="pref_chat_window_summary">Chat scherm is gelimiteerd aan %d regels</string>
-			<string name="pref_hide_summary">Verberg mij van de gebruikers online.</string>
-		<!-- /Summary constants -->
-	<!-- /Prefrence constants -->
-	
-	<!-- Notification Manager constants -->
-		<string name="notification_tap_to_chat">Tap om te chatten.</string>
-		<string name="notification_exit">Sluiten</string>
-		<string name="notification_unread_messages" formatted="false">%d ongelezen %s</string>
-		<string name="notification_unread_messages_message">bericht</string><!-- I used to just append the s, but for anothe lang, that wont work. -->
-		<string name="notification_unread_messages_message_plural">berichten</string>
-	<!-- /Notification Manager constants -->
-	
-	<!-- Network Listener constants -->
-		<string name="network_listener_outdated_client">&amp;cTe oude versie! Minimale versie is: %.3f</string>
-		<string name="network_listener_reconnect_to_server">&amp;2Succesvol opnieuw verbonden met de server!</string>
-		<string name="network_listener_token_authorised">&amp;2Token is succesvol bevoegd</string>
-		<string name="network_listener_token_does_not_exist">&amp;cDe token die is ingevoerd bestaat niet!</string>
-		<string name="network_listener_token_not_enabled_for_activation">&amp;cToken is niet in staat voor apparaat activatie op dit moment</string>
-		<string name="network_listener_token_expired">&amp;cToken is niet meer geldig</string>
-		<string name="network_listener_server_shutting_down">Server wordt afgesloten!</string>
-	<!-- /Network Listener constants -->
-		
-	<!-- Network Manager constants -->
-		<string name="network_manager_welcome_message">&amp;2Welcome bij ControlMe voor Android versie %.3f</string>
-		<string name="network_manager_connecting_message">Verbinden met Minecraft server op: %s</string>
-		<string name="network_manager_could_not_resolve_server_name">&amp;cKon de servernaam niet oplossen!</string>
-		<string name="network_manager_server_not_running">&amp;cServer niet online!</string>
-		<string name="network_manager_attempting_to_reconnect">Poging tot opnieuw verbinden: try %d</string>
-		<string name="network_manager_lost_connection">Verbinding met server verloren.</string>
-	<!-- /Network Manager constants -->
-	
-	<!-- PM Ribbon constants -->
-		<string name="ribbon_reconnecting">Opnieuw verbinden.</string>
-		<string name="ribbon_disconnected">Verbinding verbroken door server.</string>
-		<string name="ribbon_player_offline">Speler is offline</string>
-	<!-- /PM Ribbon constants -->
-    
+        <!-- Key constants -->
+            <string name="pref_key_vibrate_on_PM">pref_key_vibrate_on_PM</string>
+            <string name="pref_key_chat_window_line_limit">pref_key_chat_window_line_limit</string>
+            <string name="pref_key_hide">pref_key_hide</string>
+        <!-- /Key constants -->
+        
+        <!-- Title constants -->
+            <string name="pref_vibrate_on_PM_title">Trillen wanneer u een PM ontvangt</string>
+            <string name="pref_chat_window_title">Chat scherm textregels limiet</string>
+            <string name="pref_hide_title">Verborgen modus</string>
+        <!-- /Title constants -->
+        
+        <!-- Summary constants -->
+            <string name="pref_vibrate_on_PM_summary">Laat de telefoon trillen wanneer u een nieuwe PM of ping bericht ontvangt</string>
+            <string name="pref_chat_window_summary">Chat scherm is gelimiteerd aan %d regels</string>
+            <string name="pref_hide_summary">Verberg mij van de gebruikers online.</string>
+        <!-- /Summary constants -->
+    <!-- /Prefrence constants -->
+
+    <!-- Notification Manager constants -->
+        <string name="notification_tap_to_chat">Tap om te chatten.</string>
+        <string name="notification_exit">Sluiten</string>
+        <string name="notification_unread_messages" formatted="false">%d ongelezen %s</string>
+        <string name="notification_unread_messages_message">bericht</string> <!-- I used to just append the s, but for anothe lang, that wont work. -->
+        <string name="notification_unread_messages_message_plural">berichten</string>
+    <!-- /Notification Manager constants -->
+
+    <!-- Network Listener constants -->
+        <string name="network_listener_outdated_client">&amp;cTe oude versie! Minimale versie is: %.3f</string>
+        <string name="network_listener_reconnect_to_server">&amp;2Succesvol opnieuw verbonden met de server!</string>
+        <string name="network_listener_token_authorised">&amp;2Token is succesvol bevoegd</string>
+        <string name="network_listener_token_does_not_exist">&amp;cDe token die is ingevoerd bestaat niet!</string>
+        <string name="network_listener_token_not_enabled_for_activation">&amp;cToken is niet in staat voor apparaat activatie op dit moment</string>
+        <string name="network_listener_token_expired">&amp;cToken is niet meer geldig</string>
+        <string name="network_listener_server_shutting_down">Server wordt afgesloten!</string>
+    <!-- /Network Listener constants -->
+
+    <!-- Network Manager constants -->
+        <string name="network_manager_welcome_message">&amp;2Welcome bij ControlMe voor Android versie %.3f</string>
+        <string name="network_manager_connecting_message">Verbinden met Minecraft server op: %s</string>
+        <string name="network_manager_could_not_resolve_server_name">&amp;cKon de servernaam niet oplossen!</string>
+        <string name="network_manager_server_not_running">&amp;cServer niet online!</string>
+        <string name="network_manager_attempting_to_reconnect">Poging tot opnieuw verbinden: try %d</string>
+        <string name="network_manager_lost_connection">Verbinding met server verloren.</string>
+    <!-- /Network Manager constants -->
+
+    <!-- PM Ribbon constants -->
+        <string name="ribbon_reconnecting">Opnieuw verbinden.</string>
+        <string name="ribbon_disconnected">Verbinding verbroken door server.</string>
+        <string name="ribbon_player_offline">Speler is offline</string>
+    <!-- /PM Ribbon constants -->
+
 </resources>
