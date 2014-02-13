@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:ignore="MissingTranslation" >
+  
+    <string name="app_name">ControlMe</string>
+    
+    <!-- Misc constants -->
+	    <string name="ok">OK</string>
+	    <string name="cancel">Cancel</string>
+	    <string name="yes">Yes</string>
+	    <string name="no">No</string>
+	    <string name="crash_toast_text">Crash report sent.</string>
+    <!-- /Misc constants -->
+    
+    <!-- Page Titles -->
+		<string name="page_title_chat">Chat</string>
+		<string name="page_title_players">Players</string>
+	<!-- /Page Titles -->
+	
+	<!-- Menu constants -->
+		<string name="menu_close_tab">Close Tab</string>
+		<string name="menu_clear">Clear</string>
+		<string name="menu_reload">Reload</string>
+		<string name="menu_enter_token">Enter token</string>
+		<string name="menu_check_for_update">Check for update</string>
+		<string name="menu_settings">Settings</string>
+		<string name="menu_exit">Exit</string>
+	<!-- /Menu constants -->
+
+	<!-- Chat Window -->
+		<!-- View constants -->
+			    <string name="enter_text_here">Enter Text Here</string>
+				<string name="send">Send</string>
+		<!-- /View constants -->
+		
+		<string name="chat_you_must_be_auth_before_speak">&amp;cYou must be authorised before you can speak!</string>
+	<!-- /Chat Window -->
+	
+	<!-- Player Listing Window -->
+		<!-- View constants -->
+		
+		<!-- /View constants -->
+		
+		<!-- Data Manager constants -->
+			<string name="player_left_the_game">%s left the game.</string>
+			<string name="icon_for_player_redownlaoded">Icon for %s re-downloaded.</string>
+			<string name="player_joined_the_game">%s joined the game.</string>
+		<!-- /Data Manager constants -->
+		
+		<string name="boot_success_message" formatted="false">%s was successfully %s from the server</string>
+		<string name="banned">banned</string>
+		<string name="kicked">kicked</string>
+		<string name="boot_player_title">Boot player.</string>
+		<string name="boot_player_ban_warning">This option will permanently ban a player!</string>
+		<string name="are_you_sure">Are you sure?</string>
+		<string name="players_online">Players Online: %d</string>
+	<!-- /Player Listing Window -->
+	
+	<!-- Player Window -->
+		<string name="boot">Boot</string>
+		<string name="pm">PM</string>
+	<!-- /Player Window -->
+	
+	<!-- Name Change Window -->
+		<string name="enter_display_name">Enter in display name</string>
+	<!-- /Name Change Window -->
+	
+	<!-- Boot Window -->
+		<string name="kick">Kick</string>
+		<string name="ban">Ban</string>
+		<string name="boot_mode">Boot mode</string>
+    	<string name="boot_message">Enter boot message</string>
+	<!-- /Boot Window -->
+	
+	<!-- Update Checker -->
+		<string name="update_external_storage_error">There is an update available but there is no external storage device that I can use to update!</string>
+		<string name="update_external_storage_error_title">Error!</string>
+		<string name="update_already_up_to_date">You already have the latest version!</string>
+		<string name="update_already_up_to_date_title">No update!</string>
+		<string name="update_could_not_connect_to_the_update_site">&amp;cCould not connect to the update site</string>
+		
+		<!-- Update dialog -->
+			<string name="update_update_available">There is an update available!</string>
+			<string name="update_would_you_like_to_update">Would you like to update?\n</string>
+			<string name="update_version">Version: %.3f\n</string>
+			<string name="update_changelog">Changelog:\n</string>
+			<string name="update_downloading">Downloading&#8230;</string>
+		<!-- /Update dialog -->
+		
+	<!-- /Update Checker -->
+    
+    <!-- Prefrence constants -->
+	    <!-- Key constants -->
+		    <string name="pref_key_vibrate_on_PM">pref_key_vibrate_on_PM</string>
+		    <string name="pref_key_chat_window_line_limit">pref_key_chat_window_line_limit</string>
+		    <string name="pref_key_hide">pref_key_hide</string>
+	    <!-- /Key constants -->
+	    
+	    <!-- Title constants -->
+		    <string name="pref_vibrate_on_PM_title">Vibrate on PM</string>
+		    <string name="pref_chat_window_title">Chat window line limit</string>
+		    <string name="pref_hide_title">Hidden mode</string>
+	    <!-- /Title constants -->
+	    
+	    <!-- Summary constants -->
+		    <string name="pref_vibrate_on_PM_summary">Set the phone to vibrate when you receive a new PM/ping message</string>
+		    <string name="pref_chat_window_summary">Chat window is limited to %d lines</string>
+			<string name="pref_hide_summary">Hide me from the users online.</string>
+		<!-- /Summary constants -->
+	<!-- /Prefrence constants -->
+	
+	<!-- Notification Manager constants -->
+		<string name="notification_tap_to_chat">Tap to chat.</string>
+		<string name="notification_exit">Exit</string>
+		<string name="notification_unread_messages" formatted="false">%d unread %s</string>
+		<string name="notification_unread_messages_message">message</string><!-- I used to just append the s, but for anothe lang, that wont work. -->
+		<string name="notification_unread_messages_message_plural">messages</string>
+	<!-- /Notification Manager constants -->
+	
+	<!-- Network Listener constants -->
+		<string name="network_listener_outdated_client">&amp;cOutdated client! Minimum version is: %.3f</string>
+		<string name="network_listener_reconnect_to_server">&amp;2Successfully reconnected to the server!</string>
+		<string name="network_listener_token_authorised">&amp;2Token was successfully authorised</string>
+		<string name="network_listener_token_does_not_exist">&amp;cThe token entered does not exist!</string>
+		<string name="network_listener_token_not_enabled_for_activation">&amp;cToken is not enabled for device activation at this time</string>
+		<string name="network_listener_token_expired">&amp;cToken is expired</string>
+		<string name="network_listener_server_shutting_down">Server shutting down!</string>
+	<!-- /Network Listener constants -->
+		
+	<!-- Network Manager constants -->
+		<string name="network_manager_welcome_message">&amp;2Welcome to ControlMe for Android version %.3f</string>
+		<string name="hidden_mode_notification">&amp;cYou are using Hidden Mode! You cannot talk on the server, but they will not know you are connected!</string>
+		<string name="network_manager_connecting_message">Connecting to Minecraft server at: %s</string>
+		<string name="network_manager_could_not_resolve_server_name">&amp;cCould not resolve server name!</string>
+		<string name="network_manager_server_not_running">&amp;cServer not running!</string>
+		<string name="network_manager_attempting_to_reconnect">Attempting to reconnect: try %d</string>
+		<string name="network_manager_lost_connection">Lost connection to server.</string>
+	<!-- /Network Manager constants -->
+	
+	<!-- PM Ribbon constants -->
+		<string name="ribbon_reconnecting">Reconnecting.</string>
+		<string name="ribbon_disconnected">Disconnected by server.</string>
+		<string name="ribbon_player_offline">Player is offline</string>
+	<!-- /PM Ribbon constants -->
+    
+</resources>
