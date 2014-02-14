@@ -127,6 +127,7 @@
 
     <!-- Network Manager constants -->
         <string name="network_manager_welcome_message">&amp;2Welcome bij ControlMe voor Android versie %.3f</string>
+        <string name="hidden_mode_notification">&amp;cU gebruikt nu de verborgen modus! U kunt niet praten op de server en zij zullen niet weten dat u verbonden bent!</string>
         <string name="network_manager_connecting_message">Verbinden met Minecraft server op: %s</string>
         <string name="network_manager_could_not_resolve_server_name">&amp;cKon adres niet oplossen!</string>
         <string name="network_manager_server_not_running">&amp;cServer niet online!</string>
